@@ -40,10 +40,9 @@ rl.question('Please enter total change amount:\n', (amount) => {
        answer.push(`${coinCount[coin]} ${coin}`);
     };
 
-    answer = answer.join(', ')
+    answer = answer.join(', ');
 
-    console.log(`Based on your total change amount, you will receive: ${answer}.`)
+    console.log(`Based on your total change amount, you will receive: ${answer}.`);
 
-
-    rl.close()
+    rl.close();
 });
